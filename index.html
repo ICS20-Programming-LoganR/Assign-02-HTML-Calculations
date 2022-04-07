@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- metadata -->
+    <meta charset="utf-8">
+    <meta name="description" content="Unit2 assignment">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Logan Rodriguez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <!-- style -->
+     <link rel="stylesheet" href="./css/style.css">
+    <!-- title -->
+    <title>Square based pyramid in JS</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.pink-deep_purple.min.css" />
+<!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Unit 2 Assignment</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+    </div>
+  </header>
+  <!-- Header -->
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Title</span>
+    <nav class="mdl-navigation">
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="page-content"><!-- Your content goes here --></div>
+  </main>
+</div>
+    
+    <center>
+    <h1>Surface area and Volume of a Square-based Pyramid in JS.</h1>
+    <b>
+      <p>Do you want to finish your eigth grade math homework but don't want to show your work because you're such a bad student? Well you've come to the right place.</p>
+    <p>Fill out these text boxes to determine the volume and surface area of a square based pyramid.</p>
+      <p>(If your pyramid is not in centimeters, the answer will technically not be correct, as the units will be in centimeters)</p>
+    </b>
+    <img src="hqdefault.jpg">
+    <img src="maxresdefault.jpg" width="350" height="250">
+    </center>
+    <!-- script -->   
+    <script src="./js/script.js"></script>
+       <!-- text fields -->
+        <p>
+      <form action="javascript: calculate()">
+        <label for="pyramid-height">Pyramid Height (cm)</label>
+        <input type="number" id="pyramid-height" placeholder="Pyramid Height"><br><br>
+        <label for="rate">Base Edge (cm)</label>
+        <input type="number" id="base-edge" placeholder="Base Edge"><br><br>
+        <label for="pyramid-slope">Pyramid Slope (cm)</label>
+        <input type="number" id="pyramid-slope" placeholder="Pyramid Slope"><br><br>
+        <!-- Buttons -->
+        <input type="submit" value="Calculate Surface Area and Volume">
+                <!-- The information is displayed here -->
+        <div id="answer"></div>
+        <div id="volume"></div>
+      </p>
+      </form>
+    <a href="https://assign-02-html-calculations-1.loganrodriguez2.repl.co/">
+      <p>Click this text to calculate the volume in PHP</p>
+  </body>
+</html>
